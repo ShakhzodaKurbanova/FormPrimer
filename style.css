@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-image: url(./image/img\ bg.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+}
+.formWrapper{
+    width: 1076px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px 30px 72px 30px;
+    border-radius: 24px;
+    text-align: center;
+}
+.close{
+    display: block;
+    text-align: right;
+    font-family: 'NoirPro-Light';
+    color: blue;
+    font-size: 24px;
+}
+.formWrapper p{
+    font-family: 'NoirPro-Light';
+    font-size: 16px;
+    line-height: 22px;
+    color: gray;
+    margin-bottom: 12px;
+}
+.formWrapper a{
+    text-decoration: none;
+}
+.formWrapper h3{
+    font-family: 'NoirPro-Bold';
+    font-size: 44px;
+    line-height: 52.8px;
+    color: blue;
+    margin-bottom: 32px;
+}
+.formWrapper form{
+    width: 358px;
+    margin: 0 auto;
+}
+.formWrapper form label{
+    display: block;
+    font-family: 'NoirPro-Regular';
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 16px;
+    color:black;
+}
+.formWrapper form input{
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    padding: 14 px 12 px;
+    background-color: rgb(214, 213, 211);
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+}
+.formWrapper form input[type='submit']{
+    background-color: blue;
+    color: white;
+    font-family: 'NoirPro-Medium';
+    font-size: 16px;
+    line-height: 18.75px;
+    margin-top: 32px;
+    cursor: pointer;
+}
